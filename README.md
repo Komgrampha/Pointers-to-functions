@@ -1,6 +1,6 @@
 # Menu-Driven Program Using Pointers to Function Report
 
-##Table of Contents
+Table of Contents
 
 Introduction
 
@@ -17,9 +17,9 @@ Array of Function Pointers
 
 An array named operation is declared to hold pointers to each of the four mathematical functions. This enables the application to choose and execute a function dynamically based on user input.
 
-##Implementation Process in the code
+Implementation Process in the code
 
-###Function Declaration
+Function Declaration
 
 At the top of the code, the code is being declared with different mathematical operations.
 • Use int add (int a, int b) to calculate the sum of two integers when the user selects the correct option for addition.
@@ -32,7 +32,7 @@ At the top of the code, the code is being declared with different mathematical o
 ![image](https://github.com/user-attachments/assets/258696fa-605a-497e-917c-ed63160f9358)
 
 
-##Menu Display
+Menu Display
 
 In this section of the code, it defines the type of mathematical operations and the number of elements which will be displayed in the program when executed in the menu section.
 1.	Add
@@ -42,8 +42,7 @@ In this section of the code, it defines the type of mathematical operations and 
 5.	Exit
 ![image](https://github.com/user-attachments/assets/7eeea100-03eb-433f-8e09-a1bd86cdac98)
 
-##User Interaction and Execution
-
+User Interaction and Execution
 The application prompts the user to choose an option from the menu. The selected operation is then performed with the relevant function pointer from the operations array, and the result is displayed. If the user selects the correct option from the available choices in option 1 to 4 for the different mathematical operation, it prompts the user to enter two numbers as shown in the code below. When the two numbers are entered it displays the result of the different mathematical operations respectively and exits the program when option 5 is chosen. If the invalid option is selected such as 6, the user is prompted to try again. 
 
 ![image](https://github.com/user-attachments/assets/daf9d605-b77c-40b4-81ce-a0329680c02f)
@@ -54,7 +53,7 @@ The application prompts the user to choose an option from the menu. The selected
 ![image](https://github.com/user-attachments/assets/7178faa5-6389-4676-aed1-f380c2ae6115)
 
 
-##Code used in the Program with Comments
+Code used in the Program with Comments
 
 
 #include <iostream>
@@ -122,11 +121,11 @@ int main() {
     return 0;
 }
 
-##Conclusion
+Conclusion
 
 The menu-driven program demonstrates the use of pointers to functions in C++ and how to pass the pointers to functions. The program serves as the practical example of dynamic function execution based on the user input when the user selects the different available option for mathematical operation in the program it gives its expected result.
 
-##References
+References
 
 GeeksforGeeks. (2022, December 28). Function Pointer in C++. GeeksforGeeks; GeeksforGeeks. https://www.geeksforgeeks.org/function-pointer-in-cpp/
 Menu-driven program in C++ - javatpoint. (2021). Www.javatpoint.com. https://www.javatpoint.com/menu-driven-program-in-cpp#:~:text=A%20text%2Dbased%20or%20graphical.
