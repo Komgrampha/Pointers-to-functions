@@ -2,6 +2,8 @@
 
 ##Table of Contents
 
+##Introduction
+
 ##Purpose
 
 ##Array of Pointers
