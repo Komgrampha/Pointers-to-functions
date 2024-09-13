@@ -9,6 +9,7 @@ This report outlines how a menu-driven program is executed in C++ using the poin
 Purpose
 
 Declare an array of function pointers, each executing a separate mathematical operation.
+
 • Design an interactive menu to show consumers possible options when the code is implemented.
 
 • Prompt the user for a selection in the given option, then execute the associated function.
@@ -28,7 +29,8 @@ At the top of the code, the code is being declared with different mathematical o
 • Int divide (int a, int b) provides the quotient for the appropriate option for division in the interface of the code.
 ![image](https://github.com/user-attachments/assets/10148590-8d94-48f7-bb55-c91e26faa48d)
 
-###Main Function
+Main Function
+
 ![image](https://github.com/user-attachments/assets/258696fa-605a-497e-917c-ed63160f9358)
 
 
@@ -43,6 +45,7 @@ In this section of the code, it defines the type of mathematical operations and 
 ![image](https://github.com/user-attachments/assets/7eeea100-03eb-433f-8e09-a1bd86cdac98)
 
 User Interaction and Execution
+
 The application prompts the user to choose an option from the menu. The selected operation is then performed with the relevant function pointer from the operations array, and the result is displayed. If the user selects the correct option from the available choices in option 1 to 4 for the different mathematical operation, it prompts the user to enter two numbers as shown in the code below. When the two numbers are entered it displays the result of the different mathematical operations respectively and exits the program when option 5 is chosen. If the invalid option is selected such as 6, the user is prompted to try again. 
 
 ![image](https://github.com/user-attachments/assets/daf9d605-b77c-40b4-81ce-a0329680c02f)
@@ -54,7 +57,6 @@ The application prompts the user to choose an option from the menu. The selected
 
 
 Code used in the Program with Comments
-
 
 #include <iostream>
 
