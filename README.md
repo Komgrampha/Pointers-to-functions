@@ -22,8 +22,10 @@ This report outlines how a menu-driven program is executed in C++ using the poin
 ##Code used in the Program with Comments
 
 ##Conclusion
+
 The menu-driven program demonstrates the use of pointers to functions in C++ and how to pass the pointers to functions. The program serves as the practical example of dynamic function execution based on the user input when the user selects the different available option for mathematical operation in the program it gives its expected result.
 
 ##References
+
 GeeksforGeeks. (2022, December 28). Function Pointer in C++. GeeksforGeeks; GeeksforGeeks. https://www.geeksforgeeks.org/function-pointer-in-cpp/
 Menu-driven program in C++ - javatpoint. (2021). Www.javatpoint.com. https://www.javatpoint.com/menu-driven-program-in-cpp#:~:text=A%20text%2Dbased%20or%20graphical.
