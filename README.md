@@ -7,6 +7,6 @@
 
 
 
-#Introduction
-#Purpose
-#Array of Function Pointers
+##Introduction
+##Purpose
+##Array of Function Pointers
