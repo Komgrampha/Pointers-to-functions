@@ -10,6 +10,7 @@ Purpose
 
 Declare an array of function pointers, each executing a separate mathematical operation.
 • Design an interactive menu to show consumers possible options when the code is implemented.
+
 • Prompt the user for a selection in the given option, then execute the associated function.
 
 Array of Function Pointers
@@ -44,6 +45,7 @@ In this section of the code, it defines the type of mathematical operations and 
 ##User Interaction and Execution
 
 The application prompts the user to choose an option from the menu. The selected operation is then performed with the relevant function pointer from the operations array, and the result is displayed. If the user selects the correct option from the available choices in option 1 to 4 for the different mathematical operation, it prompts the user to enter two numbers as shown in the code below. When the two numbers are entered it displays the result of the different mathematical operations respectively and exits the program when option 5 is chosen. If the invalid option is selected such as 6, the user is prompted to try again. 
+
 ![image](https://github.com/user-attachments/assets/daf9d605-b77c-40b4-81ce-a0329680c02f)
 ![image](https://github.com/user-attachments/assets/d0be3eaf-e56a-4177-9ca7-a3ab27df47aa)
 ![image](https://github.com/user-attachments/assets/8c6290b2-89ca-44d6-8247-61eab227e3b4)
@@ -119,6 +121,7 @@ int main() {
     
     return 0;
 }
+
 ##Conclusion
 
 The menu-driven program demonstrates the use of pointers to functions in C++ and how to pass the pointers to functions. The program serves as the practical example of dynamic function execution based on the user input when the user selects the different available option for mathematical operation in the program it gives its expected result.
